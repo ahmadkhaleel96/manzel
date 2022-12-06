@@ -11,16 +11,21 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./navElements.js";
-// import { Link as LinkScroll } from 'react-scroll';
-// import { Link as LinkRouter } from 'react-router-dom';
+
+import ManzelLogo from '../../../images/manzel-logo.png';
 import "./navElements.js";
+import './navBar.css'
 
 const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavBarContainer>
-          <Logo to="/">manzel</Logo>
+          <Logo to="/">
+            <img src={ ManzelLogo} className='logo' alt='logo'/>  
+            <div className='app-name'>Manzel</div>
+            <div className='slogan'>Architecural World with <br /> Arabic Identity</div>
+            </Logo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>

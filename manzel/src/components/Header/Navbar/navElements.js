@@ -26,17 +26,17 @@ export const NavBarContainer= styled.div`
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 90%;
+    max-width: 94%;
 `
 
 export const Logo= styled(LinkRouter)`
     color: #fff;
     justify-content: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     font-weight: bold;
     text-decoration: none;
 `
