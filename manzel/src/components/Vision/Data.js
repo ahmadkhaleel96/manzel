@@ -20,17 +20,17 @@ export const aboutObj = {
   id: "vision",
   lightBg: true,
   lightText: false,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: "Wanna Know anything about us?",
   headLine: "About Us.",
   description:
 'Manzel is the passion product of Three of the most creative, weird, wacky, and ambitious dreamers in the world. Our goal is to take education to the next level. With the help of Virtual Reality and Artificial intelligence, the first step is enhancing education for Architect Students and Electrical Engineering Students. because GOD HELP THEM! They really need help, but our good deed will not stop here; all education at all levels will be pumped up a notch.',
-  buttonLabel: "Get Started",
-  imgStart: false,
+  buttonLabel: "Learn More",
+  imgStart: true,
   img: require("../../images/about-us.svg"),
   alt: "Vision",
-  dark: true,
-  primary: true,
+  dark: false,
+  primary: false,
   darkText: true,
 };
 

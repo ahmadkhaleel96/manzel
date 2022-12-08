@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AboutUs from '../components/AboutUs';
 import Navbar from '../components/Header/Navbar/navBar'
 import SideBar from '../components/Header/SideBar'
 import Intro from '../components/Intro';
@@ -18,10 +19,10 @@ const Home = () => {
       <Navbar toggle={toggle} /> 
       <Intro />
       <Vision { ...visionObj }/>
-      {/* <Vision { ...aboutObj }/>
+      <AboutUs { ...aboutObj }/>
       <Vision { ...visionObj }/>
       <Vision { ...visionObj }/>
-      <Vision { ...visionObj }/> */}
+      <Vision { ...visionObj }/>
     </>
   )
 }

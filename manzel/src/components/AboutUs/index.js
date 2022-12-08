@@ -1,14 +1,14 @@
 import React from "react";
-import { VisionContainer, VisionWrapper, VisionRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img } from "./visionElements";
+import { AboutContainer, AboutWrapper, AboutRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap, Img } from "./aboutUsElements.js";
 import { Button } from '../Button/Button.js';
-import SVG from '../../images/vision.svg';
+import AboutUsSVG from '../../images/about-us.svg';
 
-const Vision = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2}) => {
+const AboutUs = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2}) => {
   return (
     <>
-      <VisionContainer id={id} lightBg={lightBg}>
-        <VisionWrapper>
-          <VisionRow imgStart={imgStart}>
+      <AboutContainer id={id} lightBg={lightBg}>
+        <AboutWrapper>
+          <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
@@ -22,14 +22,14 @@ const Vision = ({lightBg, id, imgStart, topLine, lightText, headLine, darkText, 
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={SVG} alt={alt}/>
+                <Img src={AboutUsSVG} alt={alt}/>
               </ImgWrap>
             </Column2>
-          </VisionRow>
-        </VisionWrapper>
-      </VisionContainer>
+          </AboutRow>
+        </AboutWrapper>
+      </AboutContainer>
     </>
   );
 }
 
-export default Vision;
+export default AboutUs;
