@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { FaBars } from "react-icons/fa";
+import {IconContext} from 'react-icons/lib';
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavBarContainer,
@@ -16,37 +18,56 @@ import ManzelLogo from '../../../images/manzel-logo.png';
 import "./navElements.js";
 import './navBar.css'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
+  const [scrollNav, setScrollNav] = useState(false);
+
+  const changeNav = () => {
+    if(window.scrollY >= 850) {
+      setScrollNav(true)
+    } else {
+      setScrollNav(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+  }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  }
+   
   return (
     <>
-      <Nav>
+    <IconContext.Provider value={{color: '#fff'}}>
+      <Nav scrollNav={scrollNav}>
         <NavBarContainer>
-          <Logo to="/">
+          <Logo to="" onClick={toggleHome}>
             <img src={ ManzelLogo} className='logo' alt='logo'/>  
             <div className='app-name'>Manzel</div>
             <div className='slogan'>Architecural World with <br /> Arabic Identity</div>
             </Logo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu >
             <NavItem>
-              <NavLink to="vision">Vision</NavLink>
+              <NavLink to="vision" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>Vision</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="about-us">About Us</NavLink>
+              <NavLink to="about-us" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>About Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="products">Products</NavLink>
+              <NavLink to="products" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>Products</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="why-VR">Why VR?</NavLink>
+              <NavLink to="why-VR" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>Why VR?</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="meet">Meet The Team</NavLink>
+              <NavLink to="meet" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>Meet The Team</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="join-us">Join Us</NavLink>
+              <NavLink to="join-us" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass='active'>Join Us</NavLink>
             </NavItem>
           </NavMenu>
           <NavBtn>
@@ -54,7 +75,9 @@ const Navbar = () => {
           </NavBtn>
         </NavBarContainer>
       </Nav>
+      </IconContext.Provider>
     </>
+    
   );
 };
 

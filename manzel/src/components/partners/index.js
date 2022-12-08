@@ -6,7 +6,7 @@ import Icon3  from '../../images/manzel-kids-logo.png';
 const Partners = () => {
   return (
     <>
-      <PartnersContainer id="products">
+      <PartnersContainer id="partners">
         <PartnersH1>Our Pruducts</PartnersH1>
         <PartnersWrapper>
           <PartnersCard>

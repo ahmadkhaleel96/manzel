@@ -14,7 +14,7 @@ text-align: center;
 position: relative;
 top: 45px;
 font-size: 50px;
-margin-bottom: 15%;
+/* margin-bottom: 15%; */
 `
 
 export const ProductsContainer = styled.div`

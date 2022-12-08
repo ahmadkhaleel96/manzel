@@ -10,6 +10,7 @@ import Team from '../components/team/team.js'
 import { visionObj, aboutObj, whyVRObj } from '../components/Vision/Data';
 import { productsObj } from '../components/Products/productsData';
 import Parteners from '../components/partners';
+import Footer from '../components/footer/footer.js';
 
 const Home = () => {
     
@@ -29,6 +30,7 @@ const Home = () => {
       <WhyVR {...whyVRObj}/>
       <Parteners />
       <Team /> 
+      <Footer />
     </>
   )
 }

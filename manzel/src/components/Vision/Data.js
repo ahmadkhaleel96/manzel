@@ -17,7 +17,7 @@ export const visionObj = {
 };
 
 export const aboutObj = {
-  id: "about",
+  id: "about-us",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -36,7 +36,7 @@ export const aboutObj = {
 
 
 export const whyVRObj = {
-  id: "vision",
+  id: "why-VR",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,

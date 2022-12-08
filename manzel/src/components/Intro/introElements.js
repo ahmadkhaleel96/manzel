@@ -7,7 +7,7 @@ background: #0c0c0c;
     justify-content: center;
     justify-items: center;
     padding: 0 30px;
-    height: 855px;
+    height: 935px;
     position: relative;
     z-index: 1;
 
