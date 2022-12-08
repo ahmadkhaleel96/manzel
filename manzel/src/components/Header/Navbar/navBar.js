@@ -16,7 +16,7 @@ import ManzelLogo from '../../../images/manzel-logo.png';
 import "./navElements.js";
 import './navBar.css'
 
-const Navbar = ({ toggle }) => {
+const Navbar = () => {
   return (
     <>
       <Nav>
@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
           <MobileIcon>
             <FaBars />
           </MobileIcon>
-          <NavMenu onClick={toggle}>
+          <NavMenu >
             <NavItem>
               <NavLink to="vision">Vision</NavLink>
             </NavItem>

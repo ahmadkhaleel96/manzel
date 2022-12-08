@@ -23,7 +23,7 @@ const onHover = () => {
         Arabic Identity.
         </IntroP>
         <IntroBtnWrapper>
-            <Button to='Vision' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+            <Button to='Vision' >
                 Let's Go {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
         </IntroBtnWrapper>

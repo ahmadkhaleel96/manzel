@@ -27,7 +27,7 @@ const Button = () => {
   return (
     <div className="scroll">
     <section id="section06" className="demo">
-      <a href="#vision" >
+      <a href="/" >
         <span></span>
       </a>
     </section>
