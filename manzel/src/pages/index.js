@@ -5,8 +5,11 @@ import SideBar from '../components/Header/SideBar'
 import Intro from '../components/Intro';
 import Products from '../components/Products';
 import Vision from '../components/Vision';
-import { visionObj, aboutObj } from '../components/Vision/Data';
+import WhyVR from '../components/WhyVR';
+import Team from '../components/team/team.js'
+import { visionObj, aboutObj, whyVRObj } from '../components/Vision/Data';
 import { productsObj } from '../components/Products/productsData';
+import Parteners from '../components/partners';
 
 const Home = () => {
     
@@ -23,8 +26,9 @@ const Home = () => {
       <Vision { ...visionObj }/>
       <AboutUs { ...aboutObj }/>
       <Products { ...productsObj }/>
-      <Vision { ...visionObj }/>
-      <Vision { ...visionObj }/>
+      <WhyVR {...whyVRObj}/>
+      <Parteners />
+      <Team /> 
     </>
   )
 }

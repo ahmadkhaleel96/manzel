@@ -1,0 +1,16 @@
+.why {
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    color: #010606;
+    margin-bottom: 25px;
+}
+
+.video{
+    position: relative;
+    top: 0;
+    height: 700px;
+    padding-left: 50px;
+    margin: auto;
+}

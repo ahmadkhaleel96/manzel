@@ -28,14 +28,16 @@ export const ProductsContainer = styled.div`
 
 export const ProductsWrapper = styled.div`
   display: grid;
+  grid-gap: 125px;
   z-index: 1;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  overflow: hidden;
 `;
 
 export const ProductsRow = styled.div`
