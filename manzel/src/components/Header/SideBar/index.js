@@ -13,27 +13,27 @@ import {
 const SideBar = ({ isOpen, toggle }) => {
   return (
     <SideBarContainer isOpen={isOpen} onClick={toggle}>
-      <Icon onClick={toggle}>
+      <Icon onClick={toggle} >
         <CloseIcon onClick={toggle} />
       </Icon>
       <SideBarWrapper>
         <SideBarMenu>
-          <SideBarLink to="vision" href="/#vision">
+          <SideBarLink to="vision" >
             Vision
           </SideBarLink>
-          <SideBarLink to="about-us" href="/#about-us">
+          <SideBarLink to="about-us" >
             About Us
           </SideBarLink>
-          <SideBarLink to="products" href="/#products">
+          <SideBarLink to="products">
             Products
           </SideBarLink>
-          <SideBarLink to="why-VR" href="/#why-VR">
+          <SideBarLink to="why-VR">
             Why VR?
           </SideBarLink>
-          <SideBarLink to="partners" href="/#partners">
+          <SideBarLink to="partners">
             Partners
           </SideBarLink>
-          <SideBarLink to="meet" href="/#team">
+          <SideBarLink to="team">
             Meet the Team
           </SideBarLink>
         </SideBarMenu>

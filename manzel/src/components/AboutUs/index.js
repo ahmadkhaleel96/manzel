@@ -44,7 +44,7 @@ const AboutUs = ({
 
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to="/"
                     smooth={true}
                     duration={500}
                     spy={true}

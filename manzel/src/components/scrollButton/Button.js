@@ -5,9 +5,9 @@ const Button = () => {
   return (
     <div className="scroll">
       <section id="section06" className="demo">
-        <a href="/#vision">
+        <div onClick={() => { window.scrollTo(0,880)}} >
           <span></span>
-        </a>
+        </div>
       </section>
     </div>
   );

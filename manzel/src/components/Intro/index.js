@@ -29,7 +29,6 @@ const onHover = () => {
                     spy={true}
                     exact={1}
                     offset={0} >
-                Let's Go {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
         </IntroBtnWrapper>
       </IntroContent>
