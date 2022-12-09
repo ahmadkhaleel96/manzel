@@ -40,7 +40,6 @@ export const Column1 = styled.div`
   grid-area: col1;
   position: relative;
   left: 50px;
-  
 `;
 
 export const Column2 = styled.div`
@@ -63,7 +62,6 @@ export const TopLine = styled.p`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  /* margin-bottom: 6px; */
 `;
 
 export const Heading = styled.h1`

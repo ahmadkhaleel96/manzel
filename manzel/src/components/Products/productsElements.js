@@ -1,21 +1,20 @@
 import styled from "styled-components";
 
 export const ProductsSlogan = styled.h2`
-    text-align: center;
-    color: #01BF71;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    top: 35px;
-`
+  text-align: center;
+  color: #01bf71;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  top: 35px;
+`;
 
 export const ProductsTitle = styled.h1`
-text-align: center;
-position: relative;
-top: 45px;
-font-size: 50px;
-/* margin-bottom: 15%; */
-`
+  text-align: center;
+  position: relative;
+  top: 45px;
+  font-size: 50px;
+`;
 
 export const ProductsContainer = styled.div`
   color: #fff;
@@ -78,7 +77,6 @@ export const TopLine = styled.p`
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  /* margin-bottom: 6px; */
   padding-top: 75px;
 `;
 
@@ -114,7 +112,6 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.video`
-
   margin: 0 0 10px 0;
   padding-right: 0;
   margin-bottom: 10%;

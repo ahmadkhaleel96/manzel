@@ -8,17 +8,14 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
   Column2,
   ImgWrap,
-  Img,
   ProductsSlogan,
   ProductsTitle,
 } from "./productsElements";
-import { Button } from "../Button/Button.js";
 import ManzelVideo from "../../videos/manzel-verse.mp4";
-import SparkVideo from '../../videos/spark.mp4';
-import ManzelKidsVideo from '../../videos/manzel-kids.mp4'
+import SparkVideo from "../../videos/spark.mp4";
+import ManzelKidsVideo from "../../videos/manzel-kids.mp4";
 import "./products.css";
 
 const Products = ({
@@ -35,7 +32,7 @@ const Products = ({
   descriptionSpark,
   topLineManzelKids,
   headLineManzelKids,
-  descriptionManzelKids
+  descriptionManzelKids,
 }) => {
   return (
     <>
@@ -80,9 +77,9 @@ const Products = ({
               </ImgWrap>
             </Column2>
           </ProductsRow>
-          </ProductsWrapper>
+        </ProductsWrapper>
 
-          <ProductsWrapper>
+        <ProductsWrapper>
           <ProductsRow imgStart={!imgStart}>
             <Column1 className="spark">
               <TextWrapper>
@@ -120,31 +117,15 @@ const Products = ({
               </ImgWrap>
             </Column2>
           </ProductsRow>
-          </ProductsWrapper>
+        </ProductsWrapper>
 
-          <ProductsWrapper>
+        <ProductsWrapper>
           <ProductsRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLineManzelKids}</TopLine>
                 <Heading lightText={lightText}>{headLineManzelKids}</Heading>
                 <Subtitle darkText={darkText}>{descriptionManzelKids}</Subtitle>
-
-                {/* <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact={1}
-                    offset={0}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </Button>
-                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>
@@ -159,7 +140,6 @@ const Products = ({
               </ImgWrap>
             </Column2>
           </ProductsRow>
-
         </ProductsWrapper>
       </ProductsContainer>
     </>

@@ -1,8 +1,16 @@
 import React from "react";
-import { PartnersContainer, PartnersH1, PartnersCard,PartnersWrapper, PartnersIcon, PartnersH2, PartnersP} from './partnersElements.js'
-import Icon1 from '../../images/manzel-logo.png';
-import Icon2  from '../../images/spark-logo.png';
-import Icon3  from '../../images/manzel-kids-logo.png';
+import {
+  PartnersContainer,
+  PartnersH1,
+  PartnersCard,
+  PartnersWrapper,
+  PartnersIcon,
+  PartnersH2,
+  PartnersP,
+} from "./partnersElements.js";
+import Icon1 from "../../images/manzel-logo.png";
+import Icon2 from "../../images/spark-logo.png";
+import Icon3 from "../../images/manzel-kids-logo.png";
 const Partners = () => {
   return (
     <>
@@ -29,7 +37,7 @@ const Partners = () => {
             <PartnersIcon src={Icon3} />
             <PartnersH2>Manzel for Kids</PartnersH2>
             <PartnersP>
-            Our Flagship had a kid and is dedicated to kids.
+              Our Flagship had a kid and is dedicated to kids.
             </PartnersP>
           </PartnersCard>
         </PartnersWrapper>
