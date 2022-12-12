@@ -18,7 +18,7 @@ import ManzelLogo from "../../../images/manzel-logo.png";
 import "./navElements.js";
 import "./navBar.css";
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, isOpen }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }} >
-        <Nav scrollNav={scrollNav}>
+        <Nav scrollNav={scrollNav} onClick={toggle}>
           <NavBarContainer>
             <Logo to="/" onClick={toggleHome}>
               <img src={ManzelLogo} className="logo" alt="logo" />
@@ -57,12 +57,11 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="vision"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
                   activeClass="active"
-                  href="/#vision"
                 >
                   Vision
                 </NavLink>
@@ -71,12 +70,11 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="about-us"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
                   activeClass="active"
-                  href="/#about-us"
                 >
                   About Us
                 </NavLink>
@@ -85,12 +83,11 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="products"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
                   activeClass="active"
-                  href="/#products"
                 >
                   Products
                 </NavLink>
@@ -99,12 +96,11 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="why-VR"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
                   activeClass="active"
-                  href="/#why-VR"
                 >
                   Why VR?
                 </NavLink>
@@ -113,7 +109,7 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="partners"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
@@ -127,7 +123,7 @@ const Navbar = ({ toggle }) => {
                 <NavLink
                   to="team"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   spy={true}
                   exact={true}
                   offset={-80}
@@ -137,7 +133,6 @@ const Navbar = ({ toggle }) => {
                   Meet The Team
                 </NavLink>
               </NavItem>
-              <NavItem></NavItem>
             </NavMenu>
             <NavBtn>
               <NavBtnLink to="/signin">Sign In</NavBtnLink>
