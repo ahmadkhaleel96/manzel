@@ -56,8 +56,8 @@ export const PartnersCard = styled.div`
 `;
 
 export const PartnersIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 110px;
+  width: 150px;
   margin-bottom: 10px;
 `;
 

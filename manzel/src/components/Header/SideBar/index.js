@@ -18,22 +18,22 @@ const SideBar = ({ isOpen, toggle }) => {
       </Icon>
       <SideBarWrapper>
         <SideBarMenu>
-          <SideBarLink to="vision" >
+          <SideBarLink to="vision" onClick={toggle}>
             Vision
           </SideBarLink>
-          <SideBarLink to="about-us" >
+          <SideBarLink to="about-us" onClick={toggle}>
             About Us
           </SideBarLink>
-          <SideBarLink to="products">
+          <SideBarLink to="products" onClick={toggle}>
             Products
           </SideBarLink>
-          <SideBarLink to="why-VR">
+          <SideBarLink to="why-VR" onClick={toggle}>
             Why VR?
           </SideBarLink>
-          <SideBarLink to="partners">
+          <SideBarLink to="partners" onClick={toggle}>
             Partners
           </SideBarLink>
-          <SideBarLink to="team">
+          <SideBarLink to="team" onClick={toggle}>
             Meet the Team
           </SideBarLink>
         </SideBarMenu>

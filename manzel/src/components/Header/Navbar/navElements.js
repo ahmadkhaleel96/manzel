@@ -85,6 +85,10 @@ export const NavLink = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
 
+  &:hover {
+    color: #01bf71;
+  }
+
   &.active {
     border-bottom: 3px solid #01bf71;
   }

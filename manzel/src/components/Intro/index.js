@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IntroContainer, IntroBg, VideoBg, IntroContent, IntroH1, IntroP, IntroBtnWrapper, ArrowForward, ArrowRight } from './introElements';
 import Button from '../scrollButton/Button.js';
-import Video from '../../videos/intro.mp4';
+import Video from '../../videos/video.mp4';
 
 const Intro = () => {
 const [hover, setHover] = useState(false)
