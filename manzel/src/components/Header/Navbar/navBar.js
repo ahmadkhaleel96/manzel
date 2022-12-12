@@ -40,7 +40,7 @@ const Navbar = ({ toggle, isOpen }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }} >
-        <Nav scrollNav={scrollNav} onClick={toggle}>
+        <Nav scrollNav={scrollNav} onClick={!toggle}>
           <NavBarContainer>
             <Logo to="/" onClick={toggleHome}>
               <img src={ManzelLogo} className="logo" alt="logo" />
