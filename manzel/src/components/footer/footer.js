@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./footer.css";
 import Logo from "../../images/manzel-logo.png";
 import {
@@ -67,7 +68,7 @@ const Footer = () => {
           </span>
         </h2>
         <p className="menu">
-          <a href="/intro"> Home</a> |<a href="/#vision"> Vision</a> |
+          <a href="/#"> Home</a> |<a href='/#vision' >Vision</a> |
           <a href="/#about-us"> About Us</a> |<a href="/#products"> Products</a>
           |<a href="/#why-VR"> Why VR?</a> |<a href="#partners"> Partners</a> |
           <a href="#team"> Team</a>

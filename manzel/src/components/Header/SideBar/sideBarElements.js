@@ -17,6 +17,10 @@ export const SideBarContainer = styled.aside`
   transition: 0.2s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+
+  @media screen and (max-width: 768px) {
+    overflow: hidden;
+  }
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -60,7 +64,7 @@ export const SideBarLink = styled(LinkScroll)`
   cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #51FFFD;
     transition: 0.2s all ease-in-out;
   }
 `;
@@ -72,7 +76,7 @@ export const SideBtnWrapper = styled.div`
 
 export const SideBarRoute = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #51FFFD;
   white-space: nowrap;
   padding: 16px 64px;
   color: #010606;

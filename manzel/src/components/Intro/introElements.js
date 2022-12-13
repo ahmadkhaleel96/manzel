@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { MdArrowRight, MdArrowForward } from "react-icons/md";
 
+
 export const IntroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
@@ -25,6 +26,10 @@ export const IntroContainer = styled.div`
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
+  }
+
+  @media screen and (max-width: 768px) {
+    overflow: hidden;
   }
 `;
 export const IntroBg = styled.div`
@@ -59,37 +64,37 @@ export const IntroContent = styled.div`
   align-items: Center;
 `;
 
-export const IntroH1 = styled.h1`
-  color: #fff;
-  font-size: 60px;
-  text-align: center;
+// export const IntroH1 = styled.h1`
+//   color: #fff;
+//   font-size: 60px;
+//   text-align: center;
 
-  @media screen and (max-width: 768px) {
-    font-size: 40px;
-  }
+//   @media screen and (max-width: 768px) {
+//     font-size: 40px;
+//   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
+//   @media screen and (max-width: 480px) {
+//     font-size: 32px;
+//   }
+// `;
 
-export const IntroP = styled.p`
-  margin-top: 24px;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  max-width: 600px;
-  width: 100%;
+// export const IntroP = styled.p`
+//   margin-top: 24px;
+//   color: #fff;
+//   font-size: 14px;
+//   text-align: center;
+//   max-width: 600px;
+//   width: 100%;
 
-  @media screen and (max-width: 768px) {
-    font-size: 10px;
-    margin-top: 15px;
-  }
+//   @media screen and (max-width: 768px) {
+//     font-size: 10px;
+//     margin-top: 15px;
+//   }
 
-  @media screen and (max-width: 480px) {
-    font-size: 6px;
-  }
-`;
+//   @media screen and (max-width: 480px) {
+//     font-size: 6px;
+//   }
+// `;
 
 export const IntroBtnWrapper = styled.div`
   margin-top: 32px;
@@ -107,3 +112,19 @@ export const ArrowRight = styled(MdArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+
+export const Image = styled.img`
+  width: 80%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 45%;
+
+  @media screen and (max-width: 960px) {
+    margin-top: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 350px;
+  }
+`

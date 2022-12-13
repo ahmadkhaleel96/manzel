@@ -6,6 +6,7 @@ export const VisionContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    overflow: hidden;
   }
 `;
 
@@ -53,13 +54,12 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #51FFFD;
   font-size: 12px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  /* margin-bottom: 6px; */
 `;
 
 export const Heading = styled.h1`

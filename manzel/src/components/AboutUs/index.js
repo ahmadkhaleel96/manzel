@@ -40,9 +40,9 @@ const AboutUs = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={!darkText}>{description}</Subtitle>
 
-                <BtnWrap>
+                {/* <BtnWrap>
                   <Button
                     to="/"
                     smooth={true}
@@ -56,7 +56,7 @@ const AboutUs = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>

@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  background: ${({ lightBg }) => (lightBg ? "#02233C" : "#010606")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    overflow: hidden;
   }
 `;
 
@@ -56,7 +57,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #FC9614;
   font-size: 12px;
   line-height: 16px;
   font-weight: 700;
@@ -69,7 +70,7 @@ export const Heading = styled.h1`
   font-size: 45px;
   line-height: 1.8;
   font-weight: 900;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#fff")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;

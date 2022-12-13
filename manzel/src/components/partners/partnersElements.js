@@ -14,6 +14,7 @@ export const PartnersContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 1300px;
+    overflow: hidden;
   }
 `;
 

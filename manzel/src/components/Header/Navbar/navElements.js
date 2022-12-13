@@ -17,6 +17,10 @@ export const Nav = styled.div`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
+
+  @media screen and (max-width: 768px) {
+    overflow: hidden;
+  }
 `;
 
 export const NavBarContainer = styled.div`
@@ -86,11 +90,11 @@ export const NavLink = styled(LinkScroll)`
   cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #51FFFD;
   }
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #51FFFD;
   }
 `;
 
@@ -105,7 +109,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #51FFFD;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;

@@ -22,6 +22,7 @@ export const ProductsContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
+    overflow: hidden;
   }
 `;
 

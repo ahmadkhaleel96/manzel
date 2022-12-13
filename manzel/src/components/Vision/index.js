@@ -44,7 +44,7 @@ const Vision = ({
                 </TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-
+{/* 
                 <BtnWrap>
                   <Button
                     to="home"
@@ -59,7 +59,7 @@ const Vision = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper>
             </Column1>
             <Column2>
