@@ -8,9 +8,19 @@
 }
 
 .video {
-    position: relative;
+    /* position: relative;
     top: 0;
-    height: 700px;
-    padding-left: 50px;
-    margin: auto;
+    left: 0; */
+    height: 600px;
+    width: 600px;
+    /* padding-left: 50px; */
+    /* margin: auto; */
+    position: relative;
+    left: -19%;
+    top: 0;
+}
+
+.poster {
+    position: inherit;
+    top: 0;
 }

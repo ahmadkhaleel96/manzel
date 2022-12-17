@@ -1,5 +1,5 @@
 
-export const productsObj = [
+export const whyVRData = [
   {
     id: "1",
     key: "1",

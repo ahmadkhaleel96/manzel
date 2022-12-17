@@ -36,7 +36,7 @@ export const WhyVRRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  margin-top: 15px;
+  margin-top: 75px;
   padding: 0 15px;
   grid-area: col1;
 `;
@@ -54,13 +54,15 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #FC9614;
   font-size: 12px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 `;
 
 export const Heading = styled.h1`
@@ -77,7 +79,9 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 420px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  width: 400px;
   font-size: 14px;
   line-height: 22px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
@@ -93,8 +97,9 @@ export const ImgWrap = styled.div`
   height: 100%;
 `;
 
-export const Img = styled.video`
+export const Img = styled.div`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  /* position: fixed; */
 `;

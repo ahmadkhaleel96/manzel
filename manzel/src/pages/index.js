@@ -8,6 +8,7 @@ import Vision from "../components/Vision";
 import WhyVR from "../components/WhyVR";
 import Team from "../components/team/team.js";
 import { visionObj, aboutObj, whyVRObj } from "../components/Vision/Data";
+import { whyVRData } from '../components/WhyVR/whyVRData.js'
 import { productsObj } from "../components/Products/productsData";
 import Parteners from "../components/partners";
 import Footer from "../components/footer/footer.js";
@@ -26,7 +27,7 @@ const Home = () => {
       <Vision {...visionObj} />
       <AboutUs {...aboutObj} />
       <Products {...productsObj} />
-      <WhyVR {...whyVRObj} />
+      <WhyVR {...whyVRData} />
       <Parteners />
       <Team />
       <Footer />
