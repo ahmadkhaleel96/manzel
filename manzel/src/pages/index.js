@@ -7,7 +7,7 @@ import Products from "../components/Products";
 import Vision from "../components/Vision";
 import WhyVR from "../components/WhyVR";
 import Team from "../components/team/team.js";
-import { visionObj, aboutObj, whyVRObj } from "../components/Vision/Data";
+import { visionObj, aboutObj} from "../components/Vision/Data";
 import { whyVRData } from '../components/WhyVR/whyVRData.js'
 import { productsObj } from "../components/Products/productsData";
 import Parteners from "../components/partners";

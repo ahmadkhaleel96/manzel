@@ -8,6 +8,7 @@ import {
   TopLine,
   Subtitle,
   Column2,
+  Column3,
   ImgWrap,
   Img,
 } from "./whyVRElements";
@@ -17,54 +18,41 @@ import whyVideo from "../../videos/whyVR.mp4";
 const WhyVR = ({ lightBg, id, imgStart, darkText }) => {
   return (
     <>
-      <WhyVRContainer id={id} lightBg={!lightBg}>
+      <WhyVRContainer id='why-VR' lightBg={!lightBg}>
         <WhyVRWrapper>
           <h1 className="why">Why VR?</h1>
           <WhyVRRow imgStart={!imgStart}>
             <Column1>
               <TextWrapper>
+                <div className="overlay"></div>
                 <TopLine>Enhanced Visualization</TopLine>
-                <Subtitle darkText={!darkText}>
+                <Subtitle darkText={darkText}>
                   Studies showed that VR is a major factor in enhancing
                   Visualization
-                </Subtitle>
-
-                <TopLine>Improved Education Quality</TopLine>
-                <Subtitle darkText={!darkText}>
-                  VR Opens a different aspect of education where all the written
-                  words are a reality.
-                </Subtitle>
-
-                <TopLine>Collaborative Learning</TopLine>
-                <Subtitle darkText={!darkText}>
-                  Education is made better with other students around,
-                  especially students with different majors and universities!!
-                </Subtitle>
-
-                <TopLine>Global Outreach</TopLine>
-                <Subtitle darkText={!darkText}>
-                  Want to interact with people outside your university? We will
-                  do you one better, how about outside the country?
-                </Subtitle>
-
-                <TopLine>Better Student Appraisal</TopLine>
-                <Subtitle darkText={!darkText}>
-                  A common issue students have is an outdated method of
-                  education.
-                </Subtitle>
-
-                <TopLine>Improved Research</TopLine>
-                <Subtitle darkText={!darkText}>
-                  VR gives the ability to interact with anyone with the same
-                  interest, and research is a big plus.
                 </Subtitle>
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
-                <Img className="video" src={whyVideo} loop muted autoPlay />
-              </ImgWrap>
+              <TextWrapper>
+              <div className="overlay"></div>
+              <TopLine>Improved Research</TopLine>
+                <Subtitle darkText={darkText}>
+                  VR gives the ability to interact with anyone with the same
+                  interest, and research is a big plus.
+                </Subtitle>
+              </TextWrapper>
             </Column2>
+
+            <Column3>
+              <TextWrapper>
+                <div className="overlay"></div>
+                <TopLine>Improved Research</TopLine>
+                <Subtitle darkText={darkText}>
+                  VR gives the ability to interact with anyone with the same
+                  interest, and research is a big plus.
+                </Subtitle>
+              </TextWrapper>
+            </Column3>
           </WhyVRRow>
         </WhyVRWrapper>
       </WhyVRContainer>
