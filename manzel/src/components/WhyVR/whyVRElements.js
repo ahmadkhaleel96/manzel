@@ -96,6 +96,9 @@ export const TopLine = styled.p`
   margin-bottom: 20px;
   z-index: 10;
   /* margin-left: 15px; */
+  @media screen and (max-width: 960px) {
+    text-align: center;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -120,6 +123,11 @@ export const Subtitle = styled.p`
   z-index: 10;
   color: #fff;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+
+  @media screen and (max-width: 960px) {
+    text-align: center;
+    margin-left: 15% ;
+  }
 `;
 
 export const BtnWrap = styled.div`
