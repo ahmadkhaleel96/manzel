@@ -8,12 +8,12 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
+  // BtnWrap,
   Column2,
   ImgWrap,
   Img,
 } from "./visionElements";
-import { Button } from "../Button/Button.js";
+// import { Button } from "../Button/Button.js";
 import SVG from "../../images/vision.svg";
 import "aos/dist/aos.css";
 
@@ -44,7 +44,7 @@ const Vision = ({
                 </TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-{/* 
+                {/* 
                 <BtnWrap>
                   <Button
                     to="home"

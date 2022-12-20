@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const WhyVRContainer = styled.div`
   color: #fff;
   /* background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")}; */
@@ -17,10 +16,8 @@ export const WhyVRWrapper = styled.div`
   z-index: 1;
   height: 100%;
   width: 100%;
-  /* max-width: 1300px; */
   margin-right: auto;
   margin-left: auto;
-  /* padding: 0 24px; */
   justify-content: center;
   padding-bottom: 50px;
 `;
@@ -37,10 +34,10 @@ export const WhyVRRow = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col3 col2 col1'` : `'col1 col2 col3'`};
 
-    @media screen and (max-width: 960px) {
-      grid-template-areas: ${({ imgStart }) =>
+  @media screen and (max-width: 960px) {
+    grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2' 'col3'` : `'col1 col1' 'col2 col2' 'col3 col3`};
-    }
+  }
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
@@ -49,17 +46,14 @@ export const WhyVRRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  /* margin-top: 75px; */
   padding: 0 15px;
   grid-area: col1;
   width: 600px;
   height: 300px;
   background-image: url(https://media.istockphoto.com/id/909175550/photo/light-painting.jpg?b=1&s=612x612&w=0&k=20&c=0QyL92Uc-PlYZzS8hzLhtB_K5BeMPAGDjSfCP3ixbh4=);
-
 `;
 
 export const Column2 = styled.div`
-  /* margin-top: 15px; */
   padding: 0 15px;
   grid-area: col2;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKEaEdbGkUzm1oZYhin0B0xEn4FPOCUaPkbg&usqp=CAU);
@@ -68,16 +62,13 @@ export const Column2 = styled.div`
 `;
 
 export const Column3 = styled.div`
-  /* margin-top: 15px; */
   padding: 0 15px;
   grid-area: col3;
   background-color: blue;
   height: 300px;
   background-image: url(https://images.unsplash.com/photo-1505542448319-b71564a8fc60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGlnaHQlMjBkcmF3aW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
   background-size: auto;
-
 `;
-
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -96,7 +87,6 @@ export const TopLine = styled.p`
   margin-top: 20%;
   margin-bottom: 20px;
   z-index: 10;
-  /* margin-left: 15px; */
   @media screen and (max-width: 960px) {
     text-align: center;
   }
@@ -127,7 +117,7 @@ export const Subtitle = styled.p`
 
   @media screen and (max-width: 960px) {
     text-align: center;
-    margin-left: 15% ;
+    margin-left: 15%;
   }
 `;
 
@@ -145,5 +135,4 @@ export const Img = styled.div`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-  /* position: fixed; */
 `;

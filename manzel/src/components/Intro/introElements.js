@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { MdArrowRight, MdArrowForward } from "react-icons/md";
 
-
 export const IntroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
@@ -127,4 +126,4 @@ export const Image = styled.img`
   @media screen and (max-width: 768px) {
     margin-top: 350px;
   }
-`
+`;

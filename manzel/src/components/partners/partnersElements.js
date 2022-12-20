@@ -28,7 +28,6 @@ export const PartnersWrapper = styled.div`
   padding: 0 50px;
   padding-top: 50px;
 
-
   @media screen and (max-width: 960px) {
     grid-template-columns: 1fr 1fr;
   }

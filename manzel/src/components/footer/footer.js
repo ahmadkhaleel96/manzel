@@ -13,8 +13,6 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
-
-
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -76,10 +74,44 @@ const Footer = () => {
           </span>
         </h2>
         <p className="menu">
-          <Link to='/' exact={1} onClick={toggleHome}> Home</Link> |<Link to='vision' exact={1} offset={-80}>Vision</Link> |
-          <Link to="about-us" exact={1} offset={-80}> About Us</Link> |<Link to="products" exact={1} offset={-80}> Products</Link>
-          |<Link to="why-VR" exact={1} offset={-80}> Why VR?</Link> |<Link to="partners" exact={1} offset={-80}> Partners</Link> |
-          <Link to="team" exact={1} offset={-80}> Team</Link> |<Link to="plans" exact={1} offset={-80}> Plans</Link> 
+          <Link to="/" exact={1} onClick={toggleHome}>
+            {" "}
+            Home
+          </Link>{" "}
+          |
+          <Link to="vision" exact={1} offset={-80}>
+            Vision
+          </Link>{" "}
+          |
+          <Link to="about-us" exact={1} offset={-80}>
+            {" "}
+            About Us
+          </Link>{" "}
+          |
+          <Link to="products" exact={1} offset={-80}>
+            {" "}
+            Products
+          </Link>
+          |
+          <Link to="why-VR" exact={1} offset={-80}>
+            {" "}
+            Why VR?
+          </Link>{" "}
+          |
+          <Link to="partners" exact={1} offset={-80}>
+            {" "}
+            Partners
+          </Link>{" "}
+          |
+          <Link to="team" exact={1} offset={-80}>
+            {" "}
+            Team
+          </Link>{" "}
+          |
+          <Link to="plans" exact={1} offset={-80}>
+            {" "}
+            Plans
+          </Link>
         </p>
         <p className="name"> Manzel &copy; 2022</p>
       </div>

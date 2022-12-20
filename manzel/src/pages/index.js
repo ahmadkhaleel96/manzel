@@ -7,8 +7,8 @@ import Products from "../components/Products";
 import Vision from "../components/Vision";
 import WhyVR from "../components/WhyVR";
 import Team from "../components/team/team.js";
-import { visionObj, aboutObj} from "../components/Vision/Data";
-import { whyVRData } from '../components/WhyVR/whyVRData.js'
+import { visionObj, aboutObj } from "../components/Vision/Data";
+import { whyVRData } from "../components/WhyVR/whyVRData.js";
 import { productsObj } from "../components/Products/productsData";
 import { partnersObj } from "../components/partners/partnersData";
 import Partners from "../components/partners";
@@ -32,7 +32,7 @@ const Home = () => {
       <WhyVR {...whyVRData} />
       <Partners {...partnersObj} />
       <Team />
-      <Plans /> 
+      <Plans />
       <Footer />
     </>
   );

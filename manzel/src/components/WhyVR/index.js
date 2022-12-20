@@ -15,7 +15,7 @@ import "./whyVR.css";
 const WhyVR = ({ lightBg, id, imgStart, darkText }) => {
   return (
     <>
-      <WhyVRContainer id='why-VR' lightBg={!lightBg}>
+      <WhyVRContainer id="why-VR" lightBg={!lightBg}>
         <WhyVRWrapper>
           <h1 className="why">Why VR?</h1>
           <WhyVRRow imgStart={!imgStart}>
@@ -31,8 +31,8 @@ const WhyVR = ({ lightBg, id, imgStart, darkText }) => {
             </Column1>
             <Column2>
               <TextWrapper>
-              <div className="overlay"></div>
-              <TopLine>Improved Research</TopLine>
+                <div className="overlay"></div>
+                <TopLine>Improved Research</TopLine>
                 <Subtitle darkText={darkText}>
                   VR gives the ability to interact with anyone with the same
                   interest, and research is a big plus.

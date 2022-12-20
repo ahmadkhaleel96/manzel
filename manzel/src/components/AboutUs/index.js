@@ -8,12 +8,12 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  BtnWrap,
+  // BtnWrap,
   Column2,
   ImgWrap,
   Img,
 } from "./aboutUsElements.js";
-import { Button } from "../Button/Button.js";
+// import { Button } from "../Button/Button.js";
 import AboutUsSVG from "../../images/about-us.svg";
 
 const AboutUs = ({

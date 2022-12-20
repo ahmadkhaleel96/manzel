@@ -13,9 +13,9 @@ import {
   Heading,
 } from "./productsElements";
 import "./products.css";
-import Ahmad from "../../images/Ahmad.jpg";
-import Hadeel from "../../images/Hadeel.jpeg";
-import Samer from "../../images/Samer.jpeg";
+import Manzel from "../../images/manzel-logo.jpg";
+import Spark from "../../images/spark-poster.jpg";
+import ManzelVerse from "../../images/manzel-verse-logo.jpg";
 
 const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
   const [imageClicked, setImageClicked] = useState({
@@ -33,13 +33,15 @@ const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
       ...resetImages,
       [order]: true,
     });
-  };  
+  };
 
   return (
     <>
       <WhyVRContainer id="products" lightBg={!lightBg}>
         <WhyVRWrapper>
-          <Heading className="why" lightBg={!lightBg} >Our Products</Heading>
+          <Heading className="why" lightBg={!lightBg}>
+            Our Products
+          </Heading>
           <WhyVRRow imgStart={!imgStart}>
             <Column1>
               <TextWrapper>
@@ -48,7 +50,7 @@ const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
                   className="manzel-platform"
                   id="manzel"
                 >
-                  <TopLine >Manzel Platform (coming soon)</TopLine>
+                  <TopLine>Manzel Platform (coming soon)</TopLine>
                   <Subtitle darkText={!darkText}>
                     An interactive, virtual educational platform in the form of
                     a game that helps students, especially architecture
@@ -62,10 +64,7 @@ const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
                   onClick={() => onClickHandler("spark")}
                   className="manzel-platform"
                 >
-                  <TopLine
->
-                    Spark (coming soon)
-                  </TopLine>
+                  <TopLine>Spark (coming soon)</TopLine>
                   <Subtitle darkText={!darkText}>
                     It's a platform in virtual reality in a form of a game how
                     to repair and assemble sockets, panels, strips, plugs and
@@ -89,9 +88,13 @@ const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
             <Column2>
               <ImgWrap>
                 <div className="image">
-                  {imageClicked.manzelPlatform && ( <img src={Ahmad} alt="ground" /> )}
-                  {imageClicked.spark && <img src={Hadeel} alt="first" />}
-                  {imageClicked.manzelVerse && <img src={Samer} alt="second" />}
+                  {imageClicked.manzelPlatform && (
+                    <img src={Manzel} alt="ground" />
+                  )}
+                  {imageClicked.spark && <img src={Spark} alt="first" />}
+                  {imageClicked.manzelVerse && (
+                    <img src={ManzelVerse} alt="second" />
+                  )}
                 </div>
               </ImgWrap>
             </Column2>
