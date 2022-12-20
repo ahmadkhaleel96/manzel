@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/manzel/static/css/main.0c563806.css",
-    "main.js": "/manzel/static/js/main.8bfed41d.js",
-    "static/media/whyVR.mp4": "/manzel/static/media/whyVR.20fa6233d4cda57858fe.mp4",
-    "static/media/manzel-kids.mp4": "/manzel/static/media/manzel-kids.75821aa44e2a075c4ed3.mp4",
-    "static/media/spark.mp4": "/manzel/static/media/spark.dcf71efba5f171523834.mp4",
+    "main.css": "/manzel/static/css/main.e1b1b591.css",
+    "main.js": "/manzel/static/js/main.1db4ecfe.js",
     "static/media/intro.mp4": "/manzel/static/media/intro.b53369e13703fcd4ceff.mp4",
-    "static/media/manzel-verse.mp4": "/manzel/static/media/manzel-verse.817ce85c7c9784fab2e8.mp4",
+    "static/media/manzel-verse-logo.jpg": "/manzel/static/media/manzel-verse-logo.786b16049317ad7f6cb8.jpg",
+    "static/media/manzel-logo.jpg": "/manzel/static/media/manzel-logo.66cf4ba4e3ee4f1177a9.jpg",
+    "static/media/spark-poster.jpg": "/manzel/static/media/spark-poster.78d2308c56e673a01aee.jpg",
     "static/media/Hadeel.jpeg": "/manzel/static/media/Hadeel.37fb81befd7784bb5d7c.jpeg",
     "static/media/Samer.jpeg": "/manzel/static/media/Samer.eee20e51b67d5ccece46.jpeg",
     "static/media/Ahmad.jpg": "/manzel/static/media/Ahmad.a217a2f7c10a49c8ab76.jpg",
-    "static/media/spark-logo.png": "/manzel/static/media/spark-logo.885006529b0707e32cd6.png",
+    "static/media/haya.png": "/manzel/static/media/haya.4f8b1124657c0a07337d.png",
     "static/media/manzel-logo.png": "/manzel/static/media/manzel-logo.cb1238eb57b0c9b54b3c.png",
-    "static/media/manzel-kids-logo.png": "/manzel/static/media/manzel-kids-logo.582bd35c7c0f14d6e86a.png",
-    "static/media/about-us.svg": "/manzel/static/media/about-us.d694d6bee38c48aaa538d75b2b7a46b7.svg",
-    "static/media/vision.svg": "/manzel/static/media/vision.285b2178f59a9b93d7c4986da7523997.svg",
+    "static/media/about-us.svg": "/manzel/static/media/about-us.46b4c3cffad0f42f95d084175ba17ac4.svg",
+    "static/media/manzel-intro.png": "/manzel/static/media/manzel-intro.b26597104e079d8bdf6a.png",
+    "static/media/vision.svg": "/manzel/static/media/vision.36a10e2f427d3890984f1a4822e5c99d.svg",
     "index.html": "/manzel/index.html",
-    "main.0c563806.css.map": "/manzel/static/css/main.0c563806.css.map",
-    "main.8bfed41d.js.map": "/manzel/static/js/main.8bfed41d.js.map"
+    "main.e1b1b591.css.map": "/manzel/static/css/main.e1b1b591.css.map",
+    "main.1db4ecfe.js.map": "/manzel/static/js/main.1db4ecfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c563806.css",
-    "static/js/main.8bfed41d.js"
+    "static/css/main.e1b1b591.css",
+    "static/js/main.1db4ecfe.js"
   ]
 }
