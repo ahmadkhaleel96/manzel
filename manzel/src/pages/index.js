@@ -13,6 +13,7 @@ import { productsObj } from "../components/Products/productsData";
 import { partnersObj } from "../components/partners/partnersData";
 import Partners from "../components/partners";
 import Footer from "../components/footer/footer.js";
+import Plans from "../components/Plans/Plans.js";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,7 @@ const Home = () => {
       <WhyVR {...whyVRData} />
       <Partners {...partnersObj} />
       <Team />
+      <Plans /> 
       <Footer />
     </>
   );
