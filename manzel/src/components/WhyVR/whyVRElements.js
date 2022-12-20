@@ -22,6 +22,7 @@ export const WhyVRWrapper = styled.div`
   margin-left: auto;
   /* padding: 0 24px; */
   justify-content: center;
+  padding-bottom: 50px;
 `;
 
 export const WhyVRRow = styled.div`

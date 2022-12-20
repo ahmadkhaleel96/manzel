@@ -11,7 +11,7 @@ import './plans.css';
 const Plans = () => {
   return (
     <IconContext.Provider value={{color: '#fff', size: 64}}>
-    <div>
+    <div id="plans">
       <div className='plan-section'>
         <div className='plan-wrapper'>
             <h1 className='plan-h1'>Our Plans</h1>

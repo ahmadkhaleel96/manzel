@@ -3,6 +3,7 @@ import { IntroContainer, IntroBg, VideoBg, IntroContent, IntroH1, IntroP, IntroB
 import Button from '../scrollButton/Button.js';
 import Video from '../../videos/intro.mp4';
 import ManzelImg from '../../images/manzel-intro.png';
+import './intro.css'
 
 const Intro = () => {
 const [hover, setHover] = useState(false)
@@ -18,12 +19,12 @@ const onHover = () => {
         </IntroBg>
       </IntroContainer>
       <IntroContent>
-        {/* <IntroH1 >منزل <br /> Manzel</IntroH1>
-        <IntroP >
-        Architecural World with <br/>
-        Arabic Identity.
-        </IntroP> */}
+         {/* <IntroH1 >منزل <br /> Manzel</IntroH1> */}
         <Image src={ManzelImg} alt='Manzel'/>
+        <h4 className='intro-slogan'>
+        Architecural World with 
+        Arabic Identity.
+        </h4> 
         <IntroBtnWrapper>
             <Button to='Vision'
                     smooth={true}

@@ -10,6 +10,7 @@ import {
   Column2,
   ImgWrap,
   Button,
+  Heading,
 } from "./productsElements";
 import "./products.css";
 import Ahmad from "../../images/Ahmad.jpg";
@@ -38,7 +39,7 @@ const WhyVR = ({ lightBg, imgStart, darkText, id, key, topLine, subTitle }) => {
     <>
       <WhyVRContainer id="products" lightBg={!lightBg}>
         <WhyVRWrapper>
-          <h1 className="why">Our Products</h1>
+          <Heading className="why" lightBg={!lightBg} >Our Products</Heading>
           <WhyVRRow imgStart={!imgStart}>
             <Column1>
               <TextWrapper>

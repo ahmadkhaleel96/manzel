@@ -104,7 +104,7 @@
 }
 
 .footer .footer-center p a {
-  color: #0099ff;
+  color: #51FFFD;
   text-decoration: none;
 }
 
@@ -123,16 +123,17 @@
 }
 
 .footer h2 span {
-  color: #0099ff;
+  color: #51FFFD;
 }
 
 .footer .menu {
   color: #ffffff;
-  margin: 20px 0 12px;
+  margin: 20px 0 18px;
   padding: 0;
+  font-size: 14px;
 }
 
-.footer .menu a {
+.footer .menu Link {
   display: inline-block;
   font-weight: 550;
   line-height: 1.6;
@@ -141,11 +142,12 @@
 }
 
 .footer .menu a:hover {
-  color: #0099ff;
+  color: #51FFFD;
+  cursor: pointer;  
 }
 
 .footer .name {
-  color: #0099ff;
+  color: #51FFFD;
   font-size: 14px;
   font-weight: normal;
   margin: 0;

@@ -9,11 +9,8 @@ import {
   Subtitle,
   Column2,
   Column3,
-  ImgWrap,
-  Img,
 } from "./whyVRElements";
 import "./whyVR.css";
-import whyVideo from "../../videos/whyVR.mp4";
 
 const WhyVR = ({ lightBg, id, imgStart, darkText }) => {
   return (

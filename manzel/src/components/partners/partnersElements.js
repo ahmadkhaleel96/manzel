@@ -26,6 +26,8 @@ export const PartnersWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
+  padding-top: 50px;
+
 
   @media screen and (max-width: 960px) {
     grid-template-columns: 1fr 1fr;

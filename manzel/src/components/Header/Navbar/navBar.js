@@ -42,7 +42,7 @@ const Navbar = ({ toggle, isOpen }) => {
       <IconContext.Provider value={{ color: "#fff" }} >
         <Nav scrollNav={scrollNav} onClick={!toggle}>
           <NavBarContainer>
-            <Logo to="/" onClick={toggleHome}>
+            <Logo onClick={toggleHome}>
               <img src={ManzelLogo} className="logo" alt="logo" />
               <div className="app-name">Manzel</div>
               <div className="slogan">
@@ -131,6 +131,20 @@ const Navbar = ({ toggle, isOpen }) => {
                   href="/#team"
                 >
                   Meet The Team
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  to="plans"
+                  smooth={true}
+                  duration={300}
+                  spy={true}
+                  exact={true}
+                  offset={-80}
+                  activeClass="active"
+                  href="/#plans"
+                >
+                  Plans
                 </NavLink>
               </NavItem>
             </NavMenu>

@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./footer.css";
 import Logo from "../../images/manzel-logo.png";
+import { animateScroll as scroll } from "react-scroll";
+
 import {
   FaFacebook,
   FaInstagram,
@@ -11,6 +13,12 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <footer className="footer" id="footer">
       <div className="footer-left col-md-4 col-sm-6">
@@ -64,14 +72,14 @@ const Footer = () => {
         <h2>
           <span>
             {" "}
-            <img src={Logo} alt="Logo" className="logo" />
+            <img src={Logo} alt="Logo" className="logo" onClick={toggleHome} />
           </span>
         </h2>
         <p className="menu">
-          <a href="/#"> Home</a> |<a href='/#vision' >Vision</a> |
-          <a href="/#about-us"> About Us</a> |<a href="/#products"> Products</a>
-          |<a href="/#why-VR"> Why VR?</a> |<a href="#partners"> Partners</a> |
-          <a href="#team"> Team</a>
+          <Link to='/' exact={1} onClick={toggleHome}> Home</Link> |<Link to='vision' exact={1} offset={-80}>Vision</Link> |
+          <Link to="about-us" exact={1} offset={-80}> About Us</Link> |<Link to="products" exact={1} offset={-80}> Products</Link>
+          |<Link to="why-VR" exact={1} offset={-80}> Why VR?</Link> |<Link to="partners" exact={1} offset={-80}> Partners</Link> |
+          <Link to="team" exact={1} offset={-80}> Team</Link> |<Link to="plans" exact={1} offset={-80}> Plans</Link> 
         </p>
         <p className="name"> Manzel &copy; 2022</p>
       </div>
