@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFire } from "react-icons/fa";
-import { BsXDiamondFill } from "react-icons/bs";
+// import { BsXDiamondFill } from "react-icons/bs";
 import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../Button/Button.js";
