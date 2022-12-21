@@ -50,7 +50,8 @@ export const Column1 = styled.div`
   grid-area: col1;
   width: 600px;
   height: 300px;
-  background-image: url(https://media.istockphoto.com/id/909175550/photo/light-painting.jpg?b=1&s=612x612&w=0&k=20&c=0QyL92Uc-PlYZzS8hzLhtB_K5BeMPAGDjSfCP3ixbh4=);
+  background-image: url(https://t3.ftcdn.net/jpg/04/13/04/92/360_F_413049258_ojQjLomwzdvneZKarYlAzRWQDqk4MlC0.jpg);
+  background-size: auto;
 `;
 
 export const Column2 = styled.div`
@@ -78,7 +79,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #fff;
+  color: #51FFFD;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -107,13 +108,14 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 420px;
   margin-bottom: 15px;
-  margin-left: 30px;
+  margin-left: 65px;
   width: 400px;
   font-size: 14px;
   line-height: 22px;
   z-index: 10;
-  color: #fff;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  color: #51FFFD;
+  text-align: center;
+  /* color: ${({ darkText }) => (darkText ? "#010606" : "#fff")}; */
 
   @media screen and (max-width: 960px) {
     text-align: center;
