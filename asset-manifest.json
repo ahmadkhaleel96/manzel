@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/manzel/static/css/main.e1b1b591.css",
-    "main.js": "/manzel/static/js/main.1db4ecfe.js",
+    "main.css": "/manzel/static/css/main.c53d2ca6.css",
+    "main.js": "/manzel/static/js/main.bb047ca7.js",
     "static/media/intro.mp4": "/manzel/static/media/intro.b53369e13703fcd4ceff.mp4",
     "static/media/manzel-verse-logo.jpg": "/manzel/static/media/manzel-verse-logo.786b16049317ad7f6cb8.jpg",
     "static/media/manzel-logo.jpg": "/manzel/static/media/manzel-logo.66cf4ba4e3ee4f1177a9.jpg",
@@ -15,11 +15,11 @@
     "static/media/manzel-intro.png": "/manzel/static/media/manzel-intro.b26597104e079d8bdf6a.png",
     "static/media/vision.svg": "/manzel/static/media/vision.36a10e2f427d3890984f1a4822e5c99d.svg",
     "index.html": "/manzel/index.html",
-    "main.e1b1b591.css.map": "/manzel/static/css/main.e1b1b591.css.map",
-    "main.1db4ecfe.js.map": "/manzel/static/js/main.1db4ecfe.js.map"
+    "main.c53d2ca6.css.map": "/manzel/static/css/main.c53d2ca6.css.map",
+    "main.bb047ca7.js.map": "/manzel/static/js/main.bb047ca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b1b591.css",
-    "static/js/main.1db4ecfe.js"
+    "static/css/main.c53d2ca6.css",
+    "static/js/main.bb047ca7.js"
   ]
 }
