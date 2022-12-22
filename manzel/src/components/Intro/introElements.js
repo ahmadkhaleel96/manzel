@@ -61,39 +61,11 @@ export const IntroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: Center;
+
+  @media screen and (max-width: 960px) {
+    top: 30%;
+  }
 `;
-
-// export const IntroH1 = styled.h1`
-//   color: #fff;
-//   font-size: 60px;
-//   text-align: center;
-
-//   @media screen and (max-width: 768px) {
-//     font-size: 40px;
-//   }
-
-//   @media screen and (max-width: 480px) {
-//     font-size: 32px;
-//   }
-// `;
-
-// export const IntroP = styled.p`
-//   margin-top: 24px;
-//   color: #fff;
-//   font-size: 14px;
-//   text-align: center;
-//   max-width: 600px;
-//   width: 100%;
-
-//   @media screen and (max-width: 768px) {
-//     font-size: 10px;
-//     margin-top: 15px;
-//   }
-
-//   @media screen and (max-width: 480px) {
-//     font-size: 6px;
-//   }
-// `;
 
 export const IntroBtnWrapper = styled.div`
   margin-top: 32px;
