@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import "./team.css";
 import { TeamObj } from "./teamData.js";
