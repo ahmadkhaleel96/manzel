@@ -43,6 +43,11 @@ export const Logo = styled(LinkRouter)`
   /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 960px) {
+    position: relative;
+    right: 5%;
+  }
 `;
 
 export const MobileIcon = styled.div`

@@ -41,6 +41,10 @@ export const Column1 = styled.div`
   grid-area: col1;
   position: relative;
   left: 50px;
+
+  @media screen and (max-width: 960px) {
+    left: 0;
+  }
 `;
 
 export const Column2 = styled.div`
