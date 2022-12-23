@@ -20,7 +20,7 @@
   background-color: #fff;
   /* box-shadow: 0 6px 20px rgba(81, 255, 253, 0.5); */
   width: 300px;
-  height: 500px;
+  height: 470px;
   margin: 15px;
   text-decoration: none;
   border-radius: 20px;
@@ -66,12 +66,12 @@
 }
 
 .team-container-cardInfo p {
-  font-size: 11px;
-  margin-bottom: 24px;
+  font-size: 13px;
+  margin-bottom: 34px;
   text-align: center;
   position: relative;
   font-weight: 600;
-  bottom: 7%;
+  top: 5%
 }
 
 .choose {
@@ -153,12 +153,19 @@
 .social {
   width: 35px; 
   height: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  top: 5%;
+  right: 8%;
+  gap: 15px;
 }
 
 .member-image {
   border-radius: 100%;
   width: 140px;
   height: 140px;
+  border: 10px solid #51FFFD;
 
 }
 
@@ -167,9 +174,8 @@
   font-size: 17px;
   font-weight: 600;
   text-align: center;
-  position: relative;
-  top: -30%;
   color: black;
+  margin-bottom: 10px;
 }
 
 .member-position{
@@ -178,45 +184,11 @@
   font-weight: 600;
   text-align: center;
   color: black;
-  position: relative; 
-  bottom: 23%;
-}
-
-.image-border{
-  border: 10px solid #51FFFD;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  top: -50.6%;
-  left: -3%;
-  border-radius: 100%;
+  margin-bottom: 25px;
 }
 
 .name-line {
   border: 1px solid #FC9614;
   width: 100px;
-  position: relative;
-  bottom: 28%;
-}
-
-.position-line{
-  border: 1px solid #FC9614;
-  width: 40px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  position: relative;
-  bottom: 15%;
-  /* right: 40% */
-}
-
-.social{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: relative;
-  bottom: 5%;
-  right: 8%;
-  gap: 15px;
+  margin-bottom: 15px;
 }

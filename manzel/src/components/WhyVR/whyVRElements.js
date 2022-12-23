@@ -4,6 +4,11 @@ export const WhyVRContainer = styled.div`
   color: #fff;
   /* background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")}; */
   background-color: #02233C;
+  overflow: hidden;
+
+  @media screen and (max-width: 960px) {
+    overflow: hidden;
+  }
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -87,9 +92,27 @@ export const TopLine = styled.p`
   text-transform: uppercase;
   margin-top: 20%;
   margin-bottom: 20px;
-  z-index: 10;
+  /* z-index: 10; */
+
   @media screen and (max-width: 960px) {
     text-align: center;
+    width: 90%;
+    position: relative;
+    left: 10%;
+  };
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 8%;
+  };
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 10%;
   }
 `;
 
@@ -112,7 +135,7 @@ export const Subtitle = styled.p`
   width: 400px;
   font-size: 14px;
   line-height: 22px;
-  z-index: 10;
+  /* z-index: 10; */
   color: #51FFFD;
   text-align: center;
   /* color: ${({ darkText }) => (darkText ? "#010606" : "#fff")}; */
@@ -120,7 +143,22 @@ export const Subtitle = styled.p`
   @media screen and (max-width: 960px) {
     text-align: center;
     margin-left: 15%;
-  }
+    width: 80%;
+  };
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin-left: 15%;
+    width: 80%;
+  };
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    margin-left: 15%;
+    width: 80%;
+  };
+
+
 `;
 
 export const BtnWrap = styled.div`

@@ -33,12 +33,12 @@ const Team = () => {
                               alt="Hadeel"
                               className="member-image"
                             />
-                            <div className="image-border"></div>
+                            {/* <div className="image-border"></div> */}
                           </div>
                           <div className="member-name">{name}</div>
                           <div className="name-line"></div>
                           <div className="member-position">{position}</div>
-                          <div className="position-line"></div>
+                          {/* <div className="position-line"></div> */}
                           <p>
                             {discription}
                           </p>

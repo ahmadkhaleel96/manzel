@@ -2,9 +2,8 @@
     font-size: 45px;
     position: relative;
     text-align: center;
-    margin-top: 50px;
-    color: #010606;
-    margin-bottom: 25px;
+    color: #51FFFD;
+    margin-bottom: 150px;
 }
 
 .poster {
@@ -12,10 +11,6 @@
     top: 0;
 }
 
-.why {
-    color: #51FFFD;
-    margin-bottom: 150px;
-}
 
 .overlay {
     width: 100%;

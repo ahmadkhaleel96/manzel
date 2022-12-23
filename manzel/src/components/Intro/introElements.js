@@ -63,7 +63,7 @@ export const IntroContent = styled.div`
   align-items: Center;
 
   @media screen and (max-width: 960px) {
-    top: 30%;
+    top: 27%;
   }
 `;
 
