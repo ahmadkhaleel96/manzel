@@ -27,7 +27,7 @@ const Footer = () => {
           intelligence to increase accuracy, with the highest quality of
           education and the shortest time possible for estimation.
         </p>
-        <div class="icons">
+        <div className="icons">
           <a href="https://web.facebook.com/">
             <FaFacebook />
           </a>
@@ -74,7 +74,7 @@ const Footer = () => {
           </span>
         </h2>
         <p className="menu">
-          <Link to="/" exact={1} onClick={toggleHome}>
+          <Link to="intro" exact={1} onClick={toggleHome}>
             {" "}
             Home
           </Link>{" "}

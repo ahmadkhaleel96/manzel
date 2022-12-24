@@ -40,7 +40,7 @@ const Navbar = ({ toggle, isOpen }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <Nav scrollNav={scrollNav} onClick={!toggle}>
+        <Nav scrollNav={scrollNav} >
           <NavBarContainer>
             <Logo onClick={toggleHome}>
               <img src={ManzelLogo} className="logo" alt="logo" />
@@ -59,7 +59,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                 >
@@ -72,7 +72,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                 >
@@ -85,7 +85,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                 >
@@ -98,7 +98,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                 >
@@ -111,7 +111,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                   href="/#partners"
@@ -125,7 +125,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                   href="/#team"
@@ -139,7 +139,7 @@ const Navbar = ({ toggle, isOpen }) => {
                   smooth={true}
                   duration={300}
                   spy={true}
-                  exact={true}
+                  exact={1}
                   offset={-80}
                   activeClass="active"
                   href="/#plans"
