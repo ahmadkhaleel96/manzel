@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/manzel/static/css/main.9667f098.css",
-    "main.js": "/manzel/static/js/main.2a24aa12.js",
+    "main.js": "/manzel/static/js/main.f0e13fba.js",
     "static/media/intro.mp4": "/manzel/static/media/intro.b53369e13703fcd4ceff.mp4",
     "static/media/manzel-verse-logo.jpg": "/manzel/static/media/manzel-verse-logo.786b16049317ad7f6cb8.jpg",
     "static/media/manzel-logo.jpg": "/manzel/static/media/manzel-logo.66cf4ba4e3ee4f1177a9.jpg",
@@ -16,10 +16,10 @@
     "static/media/vision.svg": "/manzel/static/media/vision.36a10e2f427d3890984f1a4822e5c99d.svg",
     "index.html": "/manzel/index.html",
     "main.9667f098.css.map": "/manzel/static/css/main.9667f098.css.map",
-    "main.2a24aa12.js.map": "/manzel/static/js/main.2a24aa12.js.map"
+    "main.f0e13fba.js.map": "/manzel/static/js/main.f0e13fba.js.map"
   },
   "entrypoints": [
     "static/css/main.9667f098.css",
-    "static/js/main.2a24aa12.js"
+    "static/js/main.f0e13fba.js"
   ]
 }
